@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">KompaktX</string>
-    <string name="accessibility_service_description">Allows KompaktX to intercept hardware buttons for panel triggers, shortcuts, and media controls.</string>
+    <string name="app_name">Inbox</string>
+    <string name="persistent_channel">Unread count</string>
+    <string name="permission_title">Notification access needed</string>
+    <string name="permission_body">Inbox shows the notifications the system already receives. Grant notification access to see them here.</string>
+    <string name="grant_access">Grant access</string>
+    <string name="clear_all">Clear all</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="empty">Nothing waiting.</string>
+    <string name="persistent_toggle">Keep "unread" marker</string>
+    <plurals name="unread">
+        <item quantity="one">%d unread</item>
+        <item quantity="other">%d unread</item>
+    </plurals>
 </resources>
